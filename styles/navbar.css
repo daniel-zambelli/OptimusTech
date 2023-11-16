@@ -19,17 +19,75 @@
 
 .list__container > .list__item > .list-item__link {
   line-height: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.181);
 }
 
-.link__entrar {
+.link__entrar,
+.link__cadastrar {
   padding: 0.6rem 1rem;
-  border: solid 1px var(--border-color-cursos);
-  border-radius: 0.5rem;
 }
 
 .link__cadastrar {
-  padding: 0.6rem 1rem;
   color: var(--white);
   border-radius: 0.5rem;
   background-color: var(--secondary-font-color-cadastrar-btn-bg);
+}
+
+.banner-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+  gap: 4rem;
+}
+
+.banner__about-us {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--secondary-font-color-cadastrar-btn-bg);
+}
+
+.banner__title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--title-font-color);
+}
+
+.banner__description {
+  width: 850px;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+
+.achievements__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.achievements__card {
+  max-width: 300px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.card__title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--secondary-font-color-cadastrar-btn-bg);
+}
+
+.card__subtitle {
+  color: var(--title-font-color);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.card__description {
+  line-height: 1.5rem;
 }
