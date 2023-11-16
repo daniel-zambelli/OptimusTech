@@ -11,18 +11,20 @@
 
 :root {
   --primary-font: "Inter", sans-serif;
+  --white: #ffffff;
   --main-bg-color: #efefef;
   --main-font-color: #667085;
-  --secondary-font-color: #8e2424;
+  --secondary-font-color-cadastrar-btn-bg: #8e2424;
   --title-font-color: #101828;
   --bg-color-opinion-banner: #c319195a;
-  --border-color-cursos: #eaecf0;
+  --border-color-cursos: #0000003c;
   --footer-font-color: #98a2b3;
 }
 
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--white);
   font-family: var(--primary-font);
+  color: var(--main-font-color);
   font-size: 16px;
   font-weight: 400;
 }
