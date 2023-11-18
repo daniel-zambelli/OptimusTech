@@ -1,0 +1,45 @@
+.banner-opinion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--bg-color-opinion-banner);
+  padding: 2rem 3rem;
+  margin: 0 8rem 4rem;
+  border-radius: 1rem;
+}
+
+.pretitle-opinion {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--secondary-font-color-cadastrar-btn-bg);
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.title-opinion {
+  color: var(--title-font-color);
+  font-size: 3rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.152);
+  text-align: center;
+}
+
+.opinion-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.opinion-title {
+  color: var(--title-font-color);
+  font-weight: 600;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.158);
+}
+
+.opinion-description {
+  font-size: 0.8rem;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.089);
+}

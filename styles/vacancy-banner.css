@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 8rem 5rem 6rem;
+  padding: 8rem 5rem 2rem;
 }
 
 .vacancy-banner-container {
@@ -15,5 +15,5 @@
 }
 
 .vacancy-banner-img {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
