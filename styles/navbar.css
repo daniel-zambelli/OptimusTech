@@ -33,7 +33,7 @@
   background-color: var(--secondary-font-color-cadastrar-btn-bg);
 }
 
-.banner-top {
+.banner-top-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,10 +42,13 @@
   gap: 4rem;
 }
 
-.banner__about-us {
+.pretitle-destaque {
+  background-color: var(--bg-color-opinion-banner);
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--secondary-font-color-cadastrar-btn-bg);
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
 }
 
 .banner__title {
